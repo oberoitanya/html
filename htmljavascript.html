@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Embedded JavaScript Example</title>
+  <script>
+    // JavaScript code
+    function greet() {
+      var name = prompt("What's your name?");
+      if (name !== null && name !== "") {
+        var greeting = "Hello, " + name + "!";
+        alert(greeting);
+      }
+    }
+  </script>
+  <style>
+   
+    button {
+      padding: 10px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h1>Embedded JavaScript Example</h1>
+  <button onclick="greet()">Say Hello</button>
+</body>
+</html>
